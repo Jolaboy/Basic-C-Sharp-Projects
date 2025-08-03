@@ -1,5 +1,8 @@
 ﻿using System;
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1317a365c3e92fc86b03a1a58cc525b36c98f9f
 
 namespace MethodCalling
 {

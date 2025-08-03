@@ -8,7 +8,8 @@ namespace StringsandIntegers
         static void Main(string[] args)
         {
             // Create a list of integers to work with
-            List<int> numbers = new List<int> { 100, 200, 300, 400, 500 };
+            List<int> numbers = new List<int> { 100, 200, 300, 400, 500
+            };
 
             // Ask the user to enter a number to divide each element by
             Console.WriteLine("Enter a number to divide each number in the list by:");
