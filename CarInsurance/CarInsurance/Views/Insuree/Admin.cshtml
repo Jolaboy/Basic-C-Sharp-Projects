@@ -1,0 +1,34 @@
+﻿@model IEnumerable<CarInsurance.Insuree>
+
+@{
+    ViewBag.Title = "Admin - All Quotes";
+}
+
+<h2>All Quotes</h2>
+
+<p>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th class="text-right">Quote</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(mItem => item.FirstName)</td>
+                <td>@Html.DisplayFor(mItem => item.LastName)</td>
+                <td>@Html.DisplayFor(mItem => item.EmailAddress)</td>
+                <td class="text-right">@String.Format("{0:C}", item.Quote)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
