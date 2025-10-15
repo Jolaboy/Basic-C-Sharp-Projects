@@ -1,0 +1,18 @@
+## CarInsuranceApp
+
+Path: CarInsuranceApp/
+
+Tech: ASP.NET Core (if web), EF Core
+
+Purpose: Similar to CarInsurance but may represent a separate solution or UI wrapper.
+
+Quick run:
+1. cd CarInsuranceApp
+2. dotnet restore
+3. dotnet run
+
+Notes:
+- Confirm whether this project is the primary web front-end; adjust connection strings if necessary.
+
+Contributing:
+- Consolidate with CarInsurance or document differences in their READMEs.
