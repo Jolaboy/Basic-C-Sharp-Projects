@@ -1,0 +1,20 @@
+## PremierLeagueFantasyApp
+
+Path: PremierLeagueFantasyApp/
+
+Tech: ASP.NET Core, Entity Framework Core
+
+Purpose: Track fantasy league statistics, manage teams, and calculate points using seeded data.
+
+Quick run:
+1. cd PremierLeagueFantasyApp
+2. dotnet restore
+3. dotnet run
+4. Open the browser to the printed URL
+
+Notes:
+- Check Program.cs or Startup.cs for seed data logic.
+- If EF Core migrations are present: dotnet ef database update
+
+Contributing:
+- Improve points calculation, add more seed data, add unit tests for scoring logic.
