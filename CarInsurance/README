@@ -1,18 +1,19 @@
-## CarInsuranceApp
+## CarInsurance
 
-Path: CarInsuranceApp/
+Path: CarInsurance/
 
-Tech: ASP.NET Core (if web), EF Core
+Tech: .NET (Console/Web), EF Core (if present)
 
-Purpose: Similar to CarInsurance but may represent a separate solution or UI wrapper.
+Purpose: Demo app for quoting, policy management, and claims processing.
 
 Quick run:
-1. cd CarInsuranceApp
+1. cd CarInsurance
 2. dotnet restore
 3. dotnet run
 
 Notes:
-- Confirm whether this project is the primary web front-end; adjust connection strings if necessary.
+- Review appsettings.json for any required connection strings.
+- If Identity is used, see configuration notes in the project.
 
 Contributing:
-- Consolidate with CarInsurance or document differences in their READMEs.
+- Add validation, expand quote logic, secure endpoints with Identity/roles.
