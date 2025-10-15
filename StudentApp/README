@@ -1,0 +1,19 @@
+## StudentApp
+
+Path: StudentApp/
+
+Tech: .NET (Console), Entity Framework Core, SQLite (default for demo)
+
+Purpose: Demonstrates EF Core Code-First with a Student model and basic CRUD operations.
+
+Quick run:
+1. cd StudentApp
+2. dotnet restore
+3. dotnet run
+
+Notes:
+- The app uses a local SQLite file by default and may create the database on first run.
+- If migrations are included, run dotnet ef database update from this folder.
+
+Contributing:
+- Add test cases for CRUD operations, or expand the model (e.g., Enrollment, Courses).
