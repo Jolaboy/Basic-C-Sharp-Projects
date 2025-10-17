@@ -1,0 +1,19 @@
+## CarInsurance
+
+Path: CarInsurance/
+
+Tech: .NET (Console/Web), EF Core (if present)
+
+Purpose: Demo app for quoting, policy management, and claims processing.
+
+Quick run:
+1. cd CarInsurance
+2. dotnet restore
+3. dotnet run
+
+Notes:
+- Review appsettings.json for any required connection strings.
+- If Identity is used, see configuration notes in the project.
+
+Contributing:
+- Add validation, expand quote logic, secure endpoints with Identity/roles.
