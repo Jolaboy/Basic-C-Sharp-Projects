@@ -1,7 +1,5 @@
 ## Basic C# Projects Hub
-Welcome to Basic-CSharp-Projects! This repository contains a focused collection of beginner to intermediate-level C# projects.
-
-These applications are designed to help you quickly learn and practice fundamental C# programming concepts, master Object-Oriented Programming (OOP), and gain experience in database integration using Entity Framework Core.
+Welcome to my Basic-CSharp-Projects! This repository contains a focused collection of beginner to intermediate-level C# projects.These applications include practice fundamental C# programming concepts, Object-Oriented Programming (OOP), and database integration using Entity Framework Core.
 
 ### Table of Contents
 [About]
@@ -41,7 +39,7 @@ The projects below demonstrate key concepts in C# development, data access, and 
 And more!
 
 ### Project Details
-Student App (EF Core Code-First Console Application)
+### Student App (EF Core Code-First Console Application)
 This project demonstrates the Code-First approach using Entity Framework Core (EF Core) with a simple SQLite database. The application defines the data model in C# (Student class), and EF Core handles the creation and management of the database schema.
 
 ### Goals
@@ -53,22 +51,22 @@ This project demonstrates the Code-First approach using Entity Framework Core (E
 
 * Implement basic CRUD (Create, Retrieve, Update, Delete) operations.
 
-Newsletter MVC Application
-This project provides the foundation for a simple web application designed to capture user email subscriptions, built using the Model-View-Controller (MVC) architectural pattern in ASP.NET Core.
+### Newsletter MVC Application
+This project provides the foundation for a simple web application designed to capture user email subscriptions, built using the Model-View-Controller (MVC) architectural pattern in .NET Entity Framework.
 
 ### Core Technology
-### Architecture: ASP.NET Core MVC
+### Architecture: ASP.NET Framework MVC
 
-* Data: EF Core with SQL Server (a standard choice for MVC).
+* Data: EF with SQL Server (a standard choice for MVC).
 
 ### Goals
 * Create a responsive web application using the MVC structure.
 
-* Implement a simple model (Subscriber) to store user emails.
+* Implement Dashboard for Admin to manage subscriptions.
 
-* Set up EF Core for data persistence.
+* Set up EF for data persistence.
 
-* Create views for displaying the subscription form and a confirmation page.
+* Create views for displaying the subscriptions.
 
 ### Premier League Fantasy Tracker
 An application designed to leverage the power of Entity Framework Core to manage and track fantasy league statistics for Premier League players, utilizing seeded data for realistic context.
@@ -82,20 +80,16 @@ An application designed to leverage the power of Entity Framework Core to manage
 
 * League View: Ability to see rankings and performance of all teams within a custom league.
 
-### Car Insurance Management System
-A robust application designed to streamline the car insurance process, from generating quotes to managing existing policies and processing claims.
-
+### Car Insurance App
+A fully functionning application designed to streamline the car insurance process, from multi-page website with full CRUD functionality and the five standard MVC Views.
 ### Key Features
-* Quote Generation: Calculate personalized insurance premiums based on driver profile and vehicle data.
+* Quote Calculation: Collects driver and vehicle information via a form and calculates a preliminary insurance premium.
 
-* Policy Management: Store and retrieve policy details, status, and renewal dates efficiently.
+* Policy Management: Stores generated quotes and policyholder information persistently in a SQL database.
 
-* Secure Authentication: Implement role-based access for Agents, Customers, and Administrators.
+* MVC Architecture: Utilizes Models (Data/Business Logic), Views (User Interface using Razor), and Controllers (Handling user input and business logic).
 
-* Claims Tracking: A dedicated module for submitting, tracking, and reviewing insurance claims.
-
-* Document Storage: Ability to upload and manage policy-related documents.
-
+* Database First Approach: Employs Entity Framework to map C# classes directly to the database schema, simplifying data access.
 ### Getting Started
 To get started with any of these projects:
 
