@@ -1,0 +1,39 @@
+﻿@page
+@model RazorHandlerMethods.Pages.ContactModel
+
+<h2>Contact</h2>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-success" role="alert">@Model.Message</div>
+}
+
+<form method="post" class="mb-3">
+    <div class="mb-2">
+        <label asp-for="Input.Name" class="form-label"></label>
+        <input asp-for="Input.Name" class="form-control" />
+        <span asp-validation-for="Input.Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="Input.Email" class="form-label"></label>
+        <input asp-for="Input.Email" class="form-control" />
+        <span asp-validation-for="Input.Email" class="text-danger"></span>
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="Input.Subject" class="form-label"></label>
+        <input asp-for="Input.Subject" class="form-control" />
+        <span asp-validation-for="Input.Subject" class="text-danger"></span>
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="Input.Body" class="form-label"></label>
+        <textarea asp-for="Input.Body" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="Input.Body" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
+<partial name="_ValidationScriptsPartial" />
